@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MrPotatoeHead</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hoofdTitelString">Meneer aardappelhoofd</string>
+    <string name="arms_Text">Arms</string>
+    <string name="body_Text">Body</string>
+    <string name="ears_Text">Ears</string>
+    <string name="eyebrows_Text">Eyebrows</string>
+    <string name="eyes_text">Eyes</string>
+    <string name="glasses_Text">Glasses</string>
+    <string name="hat_Text">Hat</string>
+    <string name="mouth_Text">Mouth</string>
+    <string name="mustache_Text">Mustache</string>
+    <string name="nose_Text">Nose</string>
+    <string name="clicknow_string">Click his parts to add/remove them!</string>
+
+</resources>
