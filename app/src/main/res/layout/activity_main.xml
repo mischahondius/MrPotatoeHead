@@ -33,7 +33,7 @@
                 android:id="@+id/arms"
                 android:src="@drawable/arms"
                 android:visibility="invisible"
-                android:onClick="toggleBodyPart(@+id/arms)" />
+              />
 
             <ImageView
                 android:layout_alignTop="@+id/body"
@@ -41,7 +41,9 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/ears"
                 android:src="@drawable/ears"
-                android:visibility="invisible"/>
+                android:visibility="invisible"
+                />
+
 
             <ImageView
                 android:layout_alignTop="@+id/body"
@@ -129,52 +131,82 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/arms_Text"
-            android:id="@+id/arms_Checkbox" />
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/body_Text"
-            android:id="@+id/body_Checkbox" />
-        <CheckBox
+            android:id="@+id/arms_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
+     <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/ears_Text"
-            android:id="@+id/ears_Checkbox" />
+            android:id="@+id/ears_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/eyebrows_Text"
-            android:id="@+id/eyebrows_Checkbox" />
+            android:id="@+id/eyebrows_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/eyes_text"
-            android:id="@+id/eyes_Checkbox" />
+            android:id="@+id/eyes_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/glasses_Text"
-            android:id="@+id/glasses_Checkbox" />
+            android:id="@+id/glasses_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/hat_Text"
-            android:id="@+id/hat_Checkbox" />
+            android:id="@+id/hat_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mouth_Text"
-            android:id="@+id/mouth_Checkbox" />
+            android:id="@+id/mouth_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mustache_Text"
-            android:id="@+id/mustache_Checkbox" />
+            android:id="@+id/mustache_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/nose_Text"
-            android:id="@+id/nose_Checkbox" />
+            android:id="@+id/nose_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shoes_Text"
+            android:id="@+id/shoes_Checkbox"
+            android:onClick="checkBoxClicked"
+            />
+
 
     </GridLayout>
 

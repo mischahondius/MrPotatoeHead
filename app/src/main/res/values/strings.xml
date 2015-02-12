@@ -15,6 +15,7 @@
     <string name="mouth_Text">Mouth</string>
     <string name="mustache_Text">Mustache</string>
     <string name="nose_Text">Nose</string>
+    <string name="shoes_Text">Shoes</string>
     <string name="clicknow_string">Click his parts to add/remove them!</string>
 
 </resources>
