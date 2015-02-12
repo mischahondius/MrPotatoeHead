@@ -33,7 +33,7 @@
                 android:id="@+id/arms"
                 android:src="@drawable/arms"
                 android:visibility="invisible"
-                android:onClick="toggleBodyPart()" />
+                android:onClick="toggleBodyPart(@+id/arms)" />
 
             <ImageView
                 android:layout_alignTop="@+id/body"
@@ -49,14 +49,6 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/eyebrows"
                 android:src="@drawable/eyebrows"
-                android:visibility="invisible"/>
-
-            <ImageView
-                android:layout_alignTop="@+id/body"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/eyes"
-                android:src="@drawable/eyes"
                 android:visibility="invisible"/>
 
             <ImageView

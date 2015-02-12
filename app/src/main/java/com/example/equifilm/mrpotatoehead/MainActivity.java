@@ -1,9 +1,13 @@
 package com.example.equifilm.mrpotatoehead;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -38,10 +42,15 @@ public class MainActivity extends ActionBarActivity {
     }
 
     @Override
-    public void toggleBodyPart(){
-        //get id of bodypart
-        //save it
+    public void toggleBodyPart(String id){
+
+        String bodyPart = id;
+
+        //get plaatje by id
+        ImageView plaatje = (ImageView)findViewById(R.id.bodyPart);
+
         //toggle visibility
+        plaatje.setVisibility(View.VISIBLE);
     }
 
 
